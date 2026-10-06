@@ -7,7 +7,7 @@ The system retrieves the most relevant sections of the uploaded document and use
 
 ## 🔗 Project Links
 
-- 🌐 [Live Demo](https://nishad-kadam-smart-document-knowledge-assistant-app-jaf3z7.streamlit.app/)
+- 🌐 [Live Demo](https://smart-document-knowledge-assistant.streamlit.app/)
 
 - 💻 [GitHub Repository](https://github.com/Nishad-Kadam/smart-document-knowledge-assistant)
 
