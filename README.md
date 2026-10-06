@@ -99,7 +99,7 @@ Receives the user's question together with the retrieved document chunks and gen
 ## 📁 Project Structure
 
 ```text
-smart-document-assistant/
+smart-document-knowledge-assistant/
 │
 ├── app.py                 # Main application
 ├── requirements.txt       # Python dependencies
@@ -113,7 +113,7 @@ smart-document-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Nishad-Kadam/smart-document-knowledge-assistant
+git clone https://github.com/Nishad-Kadam/smart-document-knowledge-assistant.git
 cd smart-document-knowledge-assistant
 ```
 
