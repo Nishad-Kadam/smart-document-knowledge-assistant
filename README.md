@@ -101,14 +101,10 @@ Receives the user's question together with the retrieved document chunks and gen
 ```text
 smart-document-assistant/
 │
-├── .streamlit/
-│   └── secrets.toml       # API key (not committed to GitHub)
-│
 ├── app.py                 # Main application
 ├── requirements.txt       # Python dependencies
 ├── .gitignore             # Files excluded from Git
-├── README.md              # Project documentation
-└── venv/                  # Python virtual environment
+└── README.md              # Project documentation
 ```
 
 
@@ -117,8 +113,8 @@ smart-document-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Nishad-Kadam/smart-document-knowledge-assistant/blob/main/README.md
-cd smart-document-assistant
+git clone https://github.com/Nishad-Kadam/smart-document-knowledge-assistant
+cd smart-document-knowledge-assistant
 ```
 
 ### 2. Create a virtual environment
@@ -224,7 +220,6 @@ Possible future improvements include:
 - More efficient embedding generation
 - Improved chunking based on document structure
 - Better source/reference formatting
-- Deployment as a publicly accessible web application
 
 
 ## 👨‍💻 Project
