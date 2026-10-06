@@ -43,25 +43,25 @@ The application follows a simple RAG pipeline:
                      ▼
                 Vector Data
                      │
-        User Question
+               User Question
                      │
                      ▼
             Question Embedding
                      │
                      ▼
-          Similarity Comparison
+            Similarity Comparison
                      │
                      ▼
             Top 3 Relevant Chunks
                      │
                      ▼
-             Gemini LLM
+                Gemini LLM
                      │
                      ▼
-            Grounded Answer
+              Grounded Answer
                      │
                      ▼
-          Referenced Chunks
+             Referenced Chunks
 ```
 
 ### Two AI components are used:
