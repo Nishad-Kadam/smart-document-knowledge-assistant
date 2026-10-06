@@ -4,11 +4,20 @@ A web-based **Retrieval-Augmented Generation (RAG)** application that allows stu
 
 The system retrieves the most relevant sections of the uploaded document and uses an LLM to generate answers based only on the retrieved document content.
 
+
+## 🔗 Project Links
+
+- 🌐 [Live Demo](https://nishad-kadam-smart-document-knowledge-assistant-app-jaf3z7.streamlit.app/)
+
+- 💻 [GitHub Repository](https://github.com/Nishad-Kadam/smart-document-knowledge-assistant)
+
+
 ## 🎯 Problem Statement
 
 Students and researchers often work with unstructured PDFs, research articles, lab manuals, and text notes. Finding specific information using traditional search can be difficult when the required information involves concepts, synonyms, or relationships across different parts of a document.
 
 This project implements a **Smart Document Knowledge Assistant** that uses RAG to provide context-aware answers from uploaded documents.
+
 
 ## ✨ Features
 
@@ -23,6 +32,7 @@ This project implements a **Smart Document Knowledge Assistant** that uses RAG t
 - Maintain conversation history during the session
 - Display the document chunks referenced for an answer
 - Refuse to answer when the information cannot be found in the uploaded document
+
 
 ## 🧠 How It Works
 
@@ -64,6 +74,7 @@ The application follows a simple RAG pipeline:
              Referenced Chunks
 ```
 
+
 ### Two AI components are used:
 
 **Embedding model — `gemini-embedding-001`**
@@ -74,6 +85,7 @@ Converts document chunks and user questions into numerical vectors. These vector
 
 Receives the user's question together with the retrieved document chunks and generates an answer based only on that context.
 
+
 ## 🛠️ Technology Stack
 
 - **Python**
@@ -82,6 +94,7 @@ Receives the user's question together with the retrieved document chunks and gen
 - **Google Gemini API** — Embeddings and answer generation
 - **Cosine Similarity** — Document retrieval
 - **Git & GitHub** — Version control and project hosting
+
 
 ## 📁 Project Structure
 
@@ -98,7 +111,8 @@ smart-document-assistant/
 └── venv/                  # Python virtual environment
 ```
 
-## 🚀 Setup and Installation
+
+## 🚀 Running Locally
 
 ### 1. Clone the repository
 
@@ -179,6 +193,7 @@ If the requested information is not present in the retrieved document context, t
 I could not find the answer in the uploaded document.
 ```
 
+
 ## 🔒 API Key Security
 
 The Gemini API key is stored using **Streamlit Secrets** rather than directly inside the Python source code.
@@ -191,12 +206,14 @@ The following file is excluded using `.gitignore`:
 
 This prevents the API key from being accidentally pushed to the public repository.
 
+
 ## 📌 Current Limitations
 
 - The application currently processes one uploaded document at a time.
 - Document embeddings are created when a document is loaded.
 - Retrieval currently uses the top 3 most similar chunks.
 - The system depends on the Gemini API for embeddings and answer generation.
+
 
 ## 🔮 Future Improvements
 
@@ -208,6 +225,7 @@ Possible future improvements include:
 - Improved chunking based on document structure
 - Better source/reference formatting
 - Deployment as a publicly accessible web application
+
 
 ## 👨‍💻 Project
 
